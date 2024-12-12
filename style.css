@@ -1,0 +1,228 @@
+HTML{
+    HEIGHT: 100%;
+}
+
+BODY{
+    font-family: SAN-SERIF;
+
+    MARGIN: 0;
+    PADDING: 0;
+
+    height: 100%;
+}
+
+.BODY-HOME{
+    BACKGROUND-IMAGE: URL('images/background-01-port.png');
+    background-position: center ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.home-menu-item{
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid rgb(255, 255, 255);
+
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 80%;
+
+}
+
+.header {
+    background-color: #2196f3;
+
+    width: 100%;
+    height: 50px;
+    top: 0;
+
+    position: fixed;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+.header i {
+    float: left;
+    padding: 17px 0px 0px 17px;
+    color: #ffffff;
+}
+
+.header img {
+    width: 150px;
+    padding-top: 14px;
+    padding-right: 25px;
+}
+
+#home-logo-img{
+    width: 50px;
+    display: block;
+    margin: auto;
+    padding: 25px 10px 10px 10px;
+
+
+}
+
+#home-logo-text{
+    width: auto;
+    display: block;
+    margin: auto;
+    padding: 25px;
+}
+
+
+
+
+
+
+#MEAL {
+    padding-top: 50px;
+}
+
+.meals-list a{
+    text-decoration: none;
+
+}
+
+.meals-list-item {
+    border: 5px solid #1a1a1a ;
+    margin: 10px
+}
+
+.meals-list-item h1{
+    font-weight: bold;
+    font-size: 20px;
+    color: #1a1a1a;
+    padding-left: 10px;
+}
+
+.meals-list-item p{
+    font-size: 15px;
+    font-style: italic;
+    color: #4d4d4d;
+    margin-top: -7px;
+    padding-left: 10px;
+}
+
+.meals-list-item i{
+    float: right;
+    color: #1a1a1a;
+    padding-right: 35px;
+    padding-top: 15px;
+}
+
+.BODY-MEALS {
+    BACKGROUND-IMAGE: URL('images/background-02-port.png');
+    background-position: center ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.RECIPE-DETAILS IMG {
+    width: 100%;
+
+}
+
+.RECIPE-DETAILS H1 {
+    font-size: 25PX;
+    text-align: center;
+    border: 5PX SOLID #1a1a1a;
+    margin: 10PX;
+    padding: 5PX;
+}
+
+.RECIPE-DETAILS H2{
+    font-size: 20PX;
+    text-align: left;
+    margin: 0;
+    margin-left: 10PX;
+}
+
+#RECIPE {
+    padding-top: 50PX;
+}
+
+.RECIPE-DETAILS-INFO {
+    margin-left: 25PX;
+    margin-right: 25PX;
+}
+
+.RECIPE-DETAILS-INFO P {
+    font-size: 13PX;
+    display: inline-block;
+}
+
+.RECIPE-DETAILS-INGREDIANTS label {
+    line-height: 25PX;
+    margin-left: 10PX;
+
+}
+
+.RECIPE-DETAILS-STEPS {
+    padding-top: 20PX;
+
+}
+
+.RECIPE-DETAILS-STEPS OL {
+    padding-left: 28PX;
+}
+
+@media ONLY SCREEN AND(MIN-WIDTH: 600PX) {
+    #MEALS {
+        width: 80%;
+        margin: auto;
+    }
+
+    #RECIPE {
+        width: 80%;
+        margin: auto;
+
+    }
+
+}
+
+@MEDIA ONLY SCREEN AND (MIN-WIDTH: 1000PX) {
+    #MEALS {
+        width: 60%;
+        margin: auto;
+    }
+
+    #RECIPE {
+        width: 60%;
+        margin: auto;
+}
+
+}
+    
+@MEDIA ONLY SCREEN AND (MIN-WIDTH: 1500PX) {
+    #MEALS {
+        width: 40%;
+        margin: auto;
+    }
+
+    #RECIPE {
+        width: 40%;
+        margin: auto;
+}
+
+}
+
+@media ONLY SCREEN AND (MIN-WIDTH: 720PX) {
+    .BODY-MEALS {
+        BACKGROUND-IMAGE: URL('images/background-01-land.png');
+}
+
+.BODY-MEALS {
+    background-image:url(images/background-02-land.png) ;
+}
+}
+
